@@ -1,1 +1,204 @@
 
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <!-- Заголовок страницы в браузере -->
+    <title>BASIK</title>
+    <!-- Адаптив -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="/FrilanserPoJizni/flex/flex/flex/img/icons/favicon.ico">
+    <!-- Кодировка страницы -->
+    <meta charset="UTF-8" />
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="hi">
+          <div class="container">
+            <div class="hi__row">
+              <div class="hi__body">
+                <div class="hi__title">Хорошо на басике?</div>
+                <ul class="hi__list">
+                  <li>Холодное пиво!</li>
+                  <li>Отличная водичка!</li>
+                  <li>Погодка супер!</li>
+                  <li>Спасибо тебе за поддержку, блдь!</li>
+                </ul>
+              </div>
+              <div class="hi__image">
+                <img src="1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="what">
+          <div class="container">
+            <div class="what__row">
+              <div class="what__image">
+                <img src="2.jpg" alt="" />
+              </div>
+              <div class="what__body">
+                <div class="what__title title">А что делаю я?</div>
+                <div class="what__text">
+                  <p>
+                    Я сижу дома в этот прекрасный воскресный денёк и кодю вёрстку адаптива (типо под все браузеры и телефоны, поэтому картинки не должны уходить в жопу за границу)
+                  </p>
+                  <p>
+                    Но, запах Volfas Engelman сейчас витает у меня во круг и я не отчаиваюсь.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="container">
+            <div class="columns__title title">Что детаете вы?</div>
+            <div class="columns__row">
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="3.jpg" alt="" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        Купаетесь в басике!
+                      </div>
+                      <div class="item__text">
+                        Отличный бассейн Villa Kalyan всегда рад приветствовать пацанов с хорошим настроением.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="4.jpg" alt="" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        Наслаждаетесь приятным деньком!
+                      </div>
+                      <div class="item__text">
+                        Температура воздуха и температура воды приятно способствуют хорошему настроению.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="6.jpg" alt="" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        Пьёте пиво!
+                      </div>
+                      <div class="item__text">
+                        Ну куда же без замечательного пива Volfas Engelman, такого холодненького и очень зачётного, да пожалуй и Chisinau бы в меня сейчас вошёл без базаров.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="5.jpg" alt="" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        Тусуетесь по пацански!
+                      </div>
+                      <div class="item__text">
+                        Ну тут можно перечислять разные маты.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--div class="vertical">
+          <div class="container">
+            <div class="vertical__title title">Вертикальное выравнивание</div>
+            <div class="vertical__body">
+              <div class="vertical__row">
+                <div class="vertical__column vertical__column_1">
+                  <div class="vertical__item">
+                    <div class="vertical__subtitle">буду рад</div>
+                    <div class="vertical__label">подписке</div>
+                    <div class="vertical__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sint tenetur fugit vel, eligendi illum, placeat quo vero
+                      reiciendis consectetur.
+                    </div>
+                    <a href="" class="vertical__btn">подписаться</a>
+                  </div>
+                </div>
+                <div class="vertical__column vertical__column_2">
+                  <div class="vertical__item">
+                    <div class="vertical__subtitle">буду рад</div>
+                    <div class="vertical__label">лайку</div>
+                    <div class="vertical__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sint tenetur fugit vel, eligendi illum, placeat
+                        quo vero reiciendis consectetur voluptatibus atque et
+                        itaque, hic, deleniti. Sunt commodi tempora voluptatum
+                        dolorum.
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sint tenetur fugit vel, eligendi illum, placeat
+                        quo vero reiciendis consectetur tempora voluptatum
+                        dolorum.
+                      </p>
+                    </div>
+                    <a href="" class="vertical__btn">лайк</a>
+                  </div>
+                </div>
+                <div class="vertical__column vertical__column_3">
+                  <div class="vertical__item">
+                    <div class="vertical__subtitle">буду рад</div>
+                    <div class="vertical__label">комментарию</div>
+                    <div class="vertical__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sint tenetur fugit vel, eligendi illum, placeat quo vero
+                      reiciendis consectetur.
+                    </div>
+                    <a href="" class="vertical__btn">комментировать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </!--div>
+      </div-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__text">Басик 2020 </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
